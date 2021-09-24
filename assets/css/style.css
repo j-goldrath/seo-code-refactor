@@ -4,19 +4,23 @@
     margin: 0;
 }
 
+/* Set background-color of body elements on page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Set color of all anchor element colors and text decoration attributes */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Set font-size of all paragraph elements */
 p {
     font-size: 16px;
 }
 
+/* All elements with class id of header have padding, font-family, background color and color set accordingly. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,15 +28,18 @@ p {
     color: #ffffff;
 }
 
+/* All h1 text within element with class id of header should be displayed inline and with a font size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* All h1 text elements with class id of seo should will have their color set accordingly */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* All div elements with class of header should have padding applied to top, margin to right, float right, font size of 20px, and font-family set accordingly. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +48,18 @@ p {
     font-size: 20px;
 }
 
+/* Any unordered list with class id of header will have list-style-type set to none, */
 .header div ul {
     list-style-type: none;
 }
 
+/* Any list item in an unordered list with class id of header will be displayed inline with margin of 25px applied to left side. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Elements with class of hero will centered, have background-size set to cover, a bottom margin of 25px applied, height of 800px, width 100 percent, and img url set accordingly. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,19 @@ p {
     background-position: center;
 }
 
+/* All elements with class id float-left will be florated left and have a right margin of 25px applied. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* All elements with class of float-right will be floated right and have left margin of 25px applied. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.services {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Any element with class id of "benefits" will have right margin and padding applied, width, height, background-color and font family set. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +93,32 @@ p {
     background-color: #2589bd;
 }
 
+/* Any element with class id of "beneift" will have margin applied to bottom abd color set accordingly. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Any h3 elements with benefit class id of "benefit" will have margin applied to bototm and text center aligned. */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Img elements with class id of "benefit" will displayed block style with maergins added all around abd max-width set accordingly */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Elements with class id of "services" will be displayed inline-block, have a left margin applied abd width set accordingly. */
+.services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
+/* Elements with class id of "service" will have bottom margin applied, padding added all around, height , font-family, background-color and color set. */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +128,18 @@ p {
     color: #ffffff;
 }
 
+/* Img elements with class id of "service" should have a max height set. */
 .service img {
     max-height: 200px;
 }
 
+/* h2 elents with class id of "service" have bottom margin applied and font-size set. */
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Elements with class id of "footer" should have padding applied, font-family set, and text cetner aligned. */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +147,7 @@ p {
     text-align: center;
 }
 
+/* h2 elements with class id of "footer" should have font-size set accordingly. */
 .footer h2 {
     font-size: 20px;
 }
